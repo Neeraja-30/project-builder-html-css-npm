@@ -1,0 +1,246 @@
+.center {
+    font: 15px Arial, sans-serif;
+    margin: auto;
+    border: 4px solid black;
+    background: black;
+    text-align: center;
+    color: white;
+    padding: 10px;
+  }
+  .line{
+    background-color: orange;
+    height: 4px;
+    width:100%
+}
+  .header_head{
+    font: 25px Arial, sans-serif;
+  }
+  .line{
+    background-color: orange;
+    height: 7px;
+    width:100%
+}
+
+
+.topnav {
+background-color: white;
+overflow: hidden;
+float: right;
+width: 100%;
+}
+
+topnav a {
+float: left;
+color: black;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+}
+
+.topnav a.right_topnav {
+float: right;
+color: black;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+}
+
+.nav{
+border: 2px solid black;
+}
+
+* {
+box-sizing: border-box;
+}
+.example{
+margin-left: 11%;
+margin-right: 23%;
+}
+
+form.example input[type=text] {
+padding: 10px;
+font-size: 17px;
+border: 1px solid grey;
+float: center;
+width: 80%;
+background: #f1f1f1;
+
+}
+
+.search_button {
+float: right;
+width: 20%;
+padding: 10px;
+background: #070707;
+color: white;
+font-size: 17px;
+border: 1px solid grey;
+border-left: none;
+cursor: pointer;
+}
+
+.sign_in {
+float: right;
+width: 8%;
+padding: 10px;
+background: white;
+color: black;
+font-size: 17px;
+border-left: none;
+border: 2px solid black;
+cursor: pointer;
+margin-top: -3.5%;
+margin-left: 2.5%;
+}
+
+.sign_up {
+float: right;
+width: 8%;
+padding: 10px;
+background: white;
+color: black;
+font-size: 17px;
+border-left: none;
+border: 2px solid black;
+cursor: pointer;
+margin-top: -3.5%;
+}
+.sign_in:hover{
+background: #b9b8b8
+}
+.sign_up:hover{
+background: #b9b8b8
+}
+
+.search_button:hover {
+background: #0c0c0c;
+}
+
+form.example::after {
+content: "";
+clear: both;
+display: table;
+}
+.logo_img{    
+margin-top: 0%;
+margin-left: -8%;
+position: absolute;
+}
+
+
+.sec{
+    position:absolute;
+    width: 98.75%;
+    margin:0 auto;
+    background-color: #ccffff;
+    background-image: url("assets/b1.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height:50%;
+    margin-left: 7px;
+
+}
+  .text{
+      font-family: sans-serif;
+      position: absolute;
+      top: 0%;
+      left: 16.75%;
+      padding: 5px;
+      text-align: center;
+      color: white;
+      font-size: 500%;
+      margin-top: 3%;
+      margin-left: 0%;
+  }
+  .para{
+      font-family: sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 17px;
+    margin-top: -4%;
+  }
+  .sec1{
+    position:absolute;
+    width: 98.75%;
+    margin:0 auto;
+    background-color: #ccffff;
+    background-image: url("assets/background2.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height:50%;
+    margin-left: 7px;
+  }
+  .text1{
+    font-family: sans-serif;
+    position: absolute;
+    top: -12%;
+    left: 33.75%;
+    padding: 5px;
+    text-align: center;
+    color: white;
+    font-size: 250%;
+    margin-top: 3%;
+    margin-left: -2px;
+}
+.para1{
+    font-family: sans-serif;
+  text-align: center;
+  color: white;
+  font-size: 17px;
+  margin-top: -35px;
+  margin-left: 0%;
+}
+.buttons{
+        margin-left:36%;
+        margin-top: -7%;
+    }
+    #bubble {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 50px;
+        text-align: center;
+      }
+      #love-container {
+        background-image: url("assets/background.png");
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 50px;
+        text-align: center;
+        color: white;
+      }
+      #company {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 50px;
+        text-align: center;
+        border-bottom: 1px solid lightgrey;
+      }
+      #help {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        border-bottom: 8px solid orangered;
+      
+      }
+      
+      #help>div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 5px;
+      }
+      
+      #help ul {
+        list-style: none;
+      }
+      
+      #help ul li {
+        margin: 2px 0;
+      }
+            
+
